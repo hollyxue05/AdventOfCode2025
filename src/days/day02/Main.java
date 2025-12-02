@@ -8,6 +8,10 @@ class Main {
 
         // part one
         long sum = Day02.partOne(input); 
-        System.out.println("ID Sum = "+sum);
+        System.out.println("First Invalid ID Sum = "+sum);
+
+        // part two
+        sum = Day02.partTwo(input); 
+        System.out.println("Second Invalid ID Sum = "+sum);
     }
 }
